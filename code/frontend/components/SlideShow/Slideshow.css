@@ -1,0 +1,9 @@
+.slideArea{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.slide > img{
+    max-height: 74vh;
+    width: 100%;
+}

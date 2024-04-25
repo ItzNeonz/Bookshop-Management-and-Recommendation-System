@@ -1,0 +1,98 @@
+.cart{
+    text-align: center;
+    color: #302e2e;
+    background-size: cover;
+    width: 94%;
+    padding-bottom: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    overflow-x: hidden;
+}
+
+.cart-heading{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    padding-bottom: 1%;
+    text-decoration: underline;
+    text-decoration-color:orangered;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 2px;
+    color: #302e2e;
+}
+
+.itemCard {
+    border: none;
+    padding: 12px 20px;
+    margin: 1%;
+    width: 40%;
+    margin-left: 30%;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+    border-bottom: 5px solid orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgDiv{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.contentDiv{
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 2%;
+}
+
+.contentDiv > input[type=number]{
+    width: 20%;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    margin-right: 1%
+}
+
+.contentDiv > button{
+    font-size: 1.3rem;
+    background-color: white;
+    border: none;
+}
+
+.cartTotal{
+    width: 40%;
+    background-color: orangered;
+    margin-left: 30%;
+    padding: 1.5% 1.7% 1.5% 1.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-top: 0%;
+}
+
+.cart > button{
+    padding: 16px 30px;
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.cart > button:hover{
+    background-color: black;
+    color: goldenrod;
+}
+
+.emptyCart{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

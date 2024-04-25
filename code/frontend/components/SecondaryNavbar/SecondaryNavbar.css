@@ -1,0 +1,22 @@
+.secondary-navbar{
+    background-color: rgb(61, 60, 60);
+    color: white;
+    display: flex;
+    justify-content:center;
+    overflow-x: hidden;
+}
+
+.secondary-nav-component{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.secondary-nav-component:hover{
+    color: black;
+    text-decoration: none;
+    background-color: orange;
+    padding: 20px 30px;
+}

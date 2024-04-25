@@ -1,0 +1,81 @@
+.registrationForm {
+    position: fixed;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    z-index: 1002;
+    height: 75%;
+    text-align: center;
+    width: 40%;
+    padding: 0% 2% 2% 2%;
+  }
+
+.registrationForm > h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    padding-bottom: 1%;
+    text-decoration: underline;
+    text-decoration-color:orangered;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 2px;
+    color: black;
+}
+
+.registrationForm > input[type=email], input[type=password], .registrationForm > input[type=text]{
+    width: 60%;
+    height: 10%;
+    margin-bottom: 1.5%;
+    border: 2px solid orangered;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    display: block;
+    margin-left: 20%;
+}
+
+.registrationForm > button{
+    background-color: none;
+    color: orangered;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 3px solid orangered;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.registrationForm > button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.registrationForm > a{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.registrationModal {
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.regCloseButton{
+    float: right;
+    margin-top: 3.5%;
+    margin-right: 28%;
+    background-color: red;
+    color: black;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 3px solid black;
+}
+
